@@ -144,9 +144,9 @@ public class TestDragNDropFiles {
                 public void run() {
                     message.setText("You dropped " + files.size() + " files");
                     try{
-						System.out.println("C:\\Users\\evana\\Desktop\\TestCopy."+getFileExtension(files.get(files.size()-1)));
-						OutputStream bufferedOutputStream = new BufferedOutputStream(new FileOutputStream("C:\\Users\\evana\\Desktop\\TestCopy."+getFileExtension(files.get(files.size()-1))));
-						  InputStream inputStream = new ByteArrayInputStream(fileToByte(files.get(files.size())));
+						System.out.println("C:\\Users\\Basketlord\\Desktop\\TestCopy."+getFileExtension(files.get(files.size()-1)));
+						OutputStream bufferedOutputStream = new BufferedOutputStream(new FileOutputStream("C:\\Users\\BasketLord\\Desktop\\TestCopy."+getFileExtension(files.get(files.size()-1))));
+						  InputStream inputStream = new ByteArrayInputStream(fileToByte(files.get(files.size()-1)));
 						  int token = -1;
 
 						  while((token = inputStream.read()) != -1)
